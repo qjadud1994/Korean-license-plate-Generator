@@ -21,7 +21,7 @@ Hangul : 나 -> sk, 너 -> sj, 다 -> ek, 도 -> eh ... <br/>
 
 ## File Description
 
-os : Ubuntu 16.04.4 LTS
+os : Ubuntu 16.04.4 LTS <br/>
 Python : 3.5.2
 
 
