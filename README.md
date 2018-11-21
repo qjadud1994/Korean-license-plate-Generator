@@ -16,8 +16,9 @@ The name of the photo shows the letters and numbers on the license plate.
 Hangul in the plate was translated into English with the following rules.
 
 Region : 서울 -> A, 인천 -> B ... <br/>
-Hangul : 나 -> sk, 호 -> gh ... <br/>
+Hangul : 나 -> sk, 너 -> sj, 다 -> ek, 도 -> eh ... <br/>
 
+<br/>
 ![Example](https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
 (exmaple) A18sk6897 <br/>
 A : 서울 <br/>
