@@ -1,34 +1,29 @@
-# Korea-license-plate-Generator
+# Korean-license-plate-Generator
 
-Generate Synthetic Korea License Plate
+Generate Synthetic Korea License Plate.
 
-## license plate recognition using CRNN
-
-I used CRNN to recognize license plates in Korea.
+### Types of Korean license plates
 
 ![Type of license plate](https://github.com/qjadud1994/CRNN-Keras/blob/master/photo/license%20plate.jpg)
 
-I learned the following kinds of Korean license plates.
+You can create synthetic license plate pictures by selecting the plate of the desired type.
 
 
-### How to Training
+### Labeling
 
-First, you need a lot of cropped license plate images. <br/>
-And in my case I expressed the number of the license plate with the image file name. <br/>
-(The license plate number 1234 is indicated as "1234.jpg"). <br/>
-(You can also define labeling with txt or csv files if you want. [(ex)0001.jpg "1234" \n 0002.jpg "0000" ...)
+The name of the photo shows the letters and numbers on the license plate.
 
-Since I used Korean license plates, I expressed the Korean language on the license plate in English.
+Hangul in the plate was translated into English with the following rules.
+
+Region : 서울 -> A, 인천 -> B ...
+Hangul : 나 -> sk, 호 -> gh ...
 
 ![Example](https://github.com/qjadud1994/CRNN-Keras/blob/master/DB/train/A18sk6897.jpg)
-<br/>
 (exmaple) A18sk6897 <br/>
 A : 서울 <br/>
 sk : 나 <br/>
 
-After creating training data in this way, put it in 'DB/train' directory and run [training.py](https://github.com/qjadud1994/CRNN-Keras/blob/master/training.py).
-
-## File Description
+### File Description
 
 os : Ubuntu 16.04.4 LTS
 Python : 3.5.2
