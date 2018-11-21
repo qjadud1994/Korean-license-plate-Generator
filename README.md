@@ -2,14 +2,14 @@
 
 Generate Synthetic Korea License Plate.
 
-### Types of Korean license plates
+## Types of Korean license plates
 
 ![Type of license plate](https://github.com/qjadud1994/CRNN-Keras/blob/master/photo/license%20plate.jpg)
 
 You can create synthetic license plate pictures by selecting the plate of the desired type.
 
 
-### Labeling
+## Labeling
 
 The name of the photo shows the letters and numbers on the license plate.
 
@@ -19,7 +19,7 @@ Region : 서울 -> A, 인천 -> B ... <br/>
 Hangul : 나 -> sk, 너 -> sj, 다 -> ek, 도 -> eh ... <br/>
 
 
-### File Description
+## File Description
 
 os : Ubuntu 16.04.4 LTS
 Python : 3.5.2
