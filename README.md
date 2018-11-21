@@ -27,9 +27,6 @@ Python : 3.5.2
 
 |       File         |Description                                       |
 |--------------------|--------------------------------------------------|
-|Model .py           |Network using CNN (VGG) + Bidirectional LSTM      |
-|Model_GRU. py       |Network using CNN (VGG) + Bidirectional GRU       |
-|Image_Generator. py |Image batch generator for training                |
-|parameter. py       |Parameters used in CRNN                           |
-|training. py        |CRNN training                                     |
-|Prediction. py      |CRNN prediction                                   |
+|Generator_original.py           |  generate images without any image distortion/augmentation.     |
+|Generator_augmentation.py       |  generate images with image augmentations such as random brightness.   |
+|Generator_perspective.py |   generate images with perspective transform.     |
