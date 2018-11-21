@@ -4,7 +4,7 @@ Generate Synthetic Korea License Plate.
 
 - You can use this generator when there is insufficient data on the license plate.
 
-- This image generator may be used in a character recognition model ([CRNN](https://github.com/qjadud1994/CRNN-Keras.git)).
+- This image generator may be used in a [character recognition model like 'CRNN'](https://github.com/qjadud1994/CRNN-Keras.git)
 
 - I recommend pre-training with synthetic images and fine-tune with real data.
 
