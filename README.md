@@ -27,7 +27,7 @@ Generate Synthetic Korea License Plate.
 
 ## File Description
 
-- os : Ubuntu 16.04.4 LTS <br/>
+- os : Ubuntu 16.04.4 LTS
 - Python : 3.5.2
 
 
