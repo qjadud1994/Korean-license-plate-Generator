@@ -2,6 +2,10 @@
 
 Generate Synthetic Korea License Plate.
 
+You can use this generator when there is insufficient data on the license plate.
+
+I recommend pre-training with synthetic images and fine-tune with real data.
+
 ## Types of Korean license plates
 
 ![Type of license plate](https://github.com/qjadud1994/CRNN-Keras/blob/master/photo/license%20plate.jpg)
