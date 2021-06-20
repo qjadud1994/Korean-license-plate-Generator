@@ -501,7 +501,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--img_dir", help="save image directory",
                     type=str, default="../CRNN/DB/")
 parser.add_argument("-n", "--num", help="number of image",
-                    type=int)
+                    type=int, default=1)
 parser.add_argument("-s", "--save", help="save or imshow",
                     type=bool, default=True)
 args = parser.parse_args()
