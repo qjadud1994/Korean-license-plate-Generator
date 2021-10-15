@@ -57,7 +57,7 @@ Type 2 : Z22aj0246
 Type 3 : B16an7086   
 Type 4 : A48sk2287   
 Type 5 : Z19tn7921   
-Type 6 : 112ah0833
+Type 6 : 112ah0833   
 Type 7 : X50fk9747
 
 ## File Description
