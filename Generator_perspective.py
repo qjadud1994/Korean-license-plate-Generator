@@ -644,17 +644,16 @@ class ImageGenerator:
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-i", "--img_dir", help="save image directory",
-                    type=str, default="../DB/test/")
+                    type=str, default="./img/test/")
 parser.add_argument("-n", "--num", help="number of image",
-                    type=int)
+                    type=int, default=50)
 parser.add_argument("-s", "--save", help="save or imshow",
                     type=bool, default=True)
 args = parser.parse_args()
 
-
 img_dir = args.img_dir
 A = ImageGenerator(img_dir)
-img_dir2 = "../DB/train/"
+img_dir2 = "./img/train/"
 B = ImageGenerator(img_dir2)
 
 num_img = args.num
